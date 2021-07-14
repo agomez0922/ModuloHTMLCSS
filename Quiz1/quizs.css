@@ -1,0 +1,48 @@
+. {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.circulo {
+  width: 200px;
+  height: 200px;
+  background-color: yellowgreen;
+  border-radius: 100%;
+}
+
+.rectangulo {
+  width: 300px;
+  height: 200px;
+  background-color: blue;
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 100px solid blueviolet;
+}
+
+.rombo1 {
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 100px solid yellow;
+}
+
+.rombo2 {
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-top: 100px solid yellow;
+}
+
+.fig {
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
