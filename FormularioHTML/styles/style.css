@@ -23,7 +23,6 @@
     padding: 4rem;
     width: 30%;
     border-radius: 0.4rem;
-    
 }
 
 .input-container{
@@ -41,7 +40,6 @@
 
 .checkbox-container{
     margin-top: 0.5rem;
-   
 }
 
 .btn-login-container{
@@ -54,12 +52,10 @@
 .btn-login-container button{
     border-radius: 0.2rem;
     padding: 0.7rem;
-    background-color:#36D978 ;
+    background-color: ;
     color: white;
     transition: background-color 0.5s;
     transition: padding 0.background-color:5s;
-
-
 }
 
 .btn:hover{
@@ -72,4 +68,62 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.title{
+    color:#36D978 ;
+}
+
+.bgreg{
+    padding: 4rem;
+    width: 30%;
+    border-radius: 0.4rem;
+    border-color: solid gray;
+}
+
+.inputcont{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    border-color: solid gray;
+}
+
+.inputrad{
+    margin-top: 0.5rem;
+}
+
+.inputcont input{
+    border-radius:0.4rem ;
+    border:solid 0.1rem gray;
+    padding: 0.4rem;
+    margin-top: 0.2rem;
+
+}
+
+.checkreg{
+    margin-top: 0.5rem;
+}
+
+.btnreg{
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnreg button{
+    border-radius: 0.2rem;
+    padding: 0.7rem;
+    background-color:#36D978  ;
+    color: white;
+    transition: background-color 0.5s;
+    transition: padding 0.background-color:5s;
+}
+
+.formreg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid 0.1rem gray;
+   
 }
