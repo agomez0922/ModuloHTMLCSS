@@ -52,7 +52,7 @@
 .btn-login-container button{
     border-radius: 0.2rem;
     padding: 0.7rem;
-    background-color: ;
+    background-color:#36D978 ;
     color: white;
     transition: background-color 0.5s;
     transition: padding 0.background-color:5s;
@@ -126,4 +126,16 @@
     align-items: center;
     border:solid 0.1rem gray;
    
+}
+
+.regcr{
+    margin-top: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.reg2{
+    margin-top: 0.5rem;
 }
